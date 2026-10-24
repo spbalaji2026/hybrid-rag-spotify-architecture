@@ -1,0 +1,39 @@
+
+# API keys and environment secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+myenv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Git repository
+.git/
+.gitignore
+
+# IDE settings
+.vscode/
+.idea/
+
+# Local logs and temporary files
+*.log
+*.tmp
+.pytest_cache/
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Raw PDF and intermediate processing files
+data/
+
+# Local documentation
+README.md

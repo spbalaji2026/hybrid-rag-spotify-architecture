@@ -1,0 +1,29 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+myenv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+.pytest_cache/
+
+# Windows files
+Thumbs.db
+Desktop.ini

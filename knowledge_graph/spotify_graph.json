@@ -1,0 +1,966 @@
+{
+  "directed": true,
+  "multigraph": true,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Frontend"
+    },
+    {
+      "id": "Next.js"
+    },
+    {
+      "id": "Tailwind CSS"
+    },
+    {
+      "id": "React Query"
+    },
+    {
+      "id": "Zustand"
+    },
+    {
+      "id": "HLS.js"
+    },
+    {
+      "id": "OAuth2"
+    },
+    {
+      "id": "PWA features"
+    },
+    {
+      "id": "Backend"
+    },
+    {
+      "id": "Node.js"
+    },
+    {
+      "id": "NestJS"
+    },
+    {
+      "id": "REST"
+    },
+    {
+      "id": "API Gateway"
+    },
+    {
+      "id": "gRPC"
+    },
+    {
+      "id": "message bus"
+    },
+    {
+      "id": "PostgreSQL"
+    },
+    {
+      "id": "relational data"
+    },
+    {
+      "id": "Redis"
+    },
+    {
+      "id": "caching"
+    },
+    {
+      "id": "sessions"
+    },
+    {
+      "id": "Elasticsearch/OpenSearch"
+    },
+    {
+      "id": "full-text search"
+    },
+    {
+      "id": "autocomplete"
+    },
+    {
+      "id": "ClickHouse"
+    },
+    {
+      "id": "analytics events"
+    },
+    {
+      "id": "S3-compatible object storage"
+    },
+    {
+      "id": "audio and images"
+    },
+    {
+      "id": "CDN"
+    },
+    {
+      "id": "assets and audio"
+    },
+    {
+      "id": "Docker"
+    },
+    {
+      "id": "containerization"
+    },
+    {
+      "id": "Kubernetes"
+    },
+    {
+      "id": "orchestration"
+    },
+    {
+      "id": "Vault / Secrets Manager"
+    },
+    {
+      "id": "secrets"
+    },
+    {
+      "id": "CI/CD"
+    },
+    {
+      "id": "GitHub Actions"
+    },
+    {
+      "id": "GitLab CI"
+    },
+    {
+      "id": "GKE/EKS/AKS"
+    },
+    {
+      "id": "Vault"
+    },
+    {
+      "id": "Secrets Manager"
+    },
+    {
+      "id": "Observability"
+    },
+    {
+      "id": "Prometheus"
+    },
+    {
+      "id": "Grafana"
+    },
+    {
+      "id": "Auth & Identity Service"
+    },
+    {
+      "id": "users"
+    },
+    {
+      "id": "credentials"
+    },
+    {
+      "id": "devices"
+    },
+    {
+      "id": "User Profile Service"
+    },
+    {
+      "id": "display name"
+    },
+    {
+      "id": "avatar"
+    },
+    {
+      "id": "profile settings"
+    },
+    {
+      "id": "user preferences"
+    },
+    {
+      "id": "Catalog Service"
+    },
+    {
+      "id": "metadata"
+    },
+    {
+      "id": "relationships"
+    },
+    {
+      "id": "Search & Discovery Index Service"
+    },
+    {
+      "id": "tracks, albums, artists, playlists, podcasts"
+    },
+    {
+      "id": "Library & Playlist Service"
+    },
+    {
+      "id": "playlists"
+    },
+    {
+      "id": "Playback & Session Service"
+    },
+    {
+      "id": "playback state"
+    },
+    {
+      "id": "playback sessions and active devices"
+    },
+    {
+      "id": "WebSocket channel"
+    },
+    {
+      "id": "Subscription & Billing Service"
+    },
+    {
+      "id": "subscription plans"
+    },
+    {
+      "id": "payment gateways"
+    },
+    {
+      "id": "trials, renewals, invoicing, and cancellations"
+    },
+    {
+      "id": "Ads Service"
+    },
+    {
+      "id": "ad campaigns"
+    },
+    {
+      "id": "impressions, clicks, frequency caps"
+    },
+    {
+      "id": "Content Ingestion & Creator Portal Service"
+    },
+    {
+      "id": "catalogs"
+    },
+    {
+      "id": "podcast ingestion and hosting"
+    },
+    {
+      "id": "Artist/label portal"
+    },
+    {
+      "id": "Podcast ingestion and hosting"
+    },
+    {
+      "id": "episodes"
+    },
+    {
+      "id": "RSS import"
+    },
+    {
+      "id": "Media Processor Service"
+    },
+    {
+      "id": "FFmpeg"
+    },
+    {
+      "id": "processed files"
+    },
+    {
+      "id": "Analytics & Events Service"
+    },
+    {
+      "id": "events"
+    },
+    {
+      "id": "Analytics Service"
+    },
+    {
+      "id": "Internal Dashboards"
+    },
+    {
+      "id": "Listening Data"
+    },
+    {
+      "id": "Recommendation Service"
+    },
+    {
+      "id": "Notification Service"
+    },
+    {
+      "id": "Emails"
+    },
+    {
+      "id": "Notification Templates"
+    },
+    {
+      "id": "Digest Emails"
+    },
+    {
+      "id": "Admin & Backoffice Service"
+    },
+    {
+      "id": "Admin Panel"
+    },
+    {
+      "id": "Feature Flags"
+    },
+    {
+      "id": "System Metrics"
+    },
+    {
+      "id": "Users"
+    },
+    {
+      "id": "Authentication Cache"
+    }
+  ],
+  "links": [
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_1",
+      "evidence": "Next.js (React + TypeScript) for SSR/SSG and SPA behavior.",
+      "source": "Frontend",
+      "target": "Next.js",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_1",
+      "evidence": "Tailwind CSS with a component library (e.g. Headless UI/Radix UI style).",
+      "source": "Frontend",
+      "target": "Tailwind CSS",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_1",
+      "evidence": "React Query (TanStack Query) for server state.",
+      "source": "Frontend",
+      "target": "React Query",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_1",
+      "evidence": "Zustand/Recoil/Jotai for global player state.",
+      "source": "Frontend",
+      "target": "Zustand",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_1",
+      "evidence": "HLS.js + HTML5 Audio / Web Audio API for playback & visualizations.",
+      "source": "Frontend",
+      "target": "HLS.js",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_1",
+      "evidence": "OAuth2 / OIDC-based auth integration with backend.",
+      "source": "Frontend",
+      "target": "OAuth2",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_1",
+      "evidence": "PWA features for installable app and offline caching of some metadata.",
+      "source": "Frontend",
+      "target": "PWA features",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_1",
+      "evidence": "Node.js + TypeScript.",
+      "source": "Backend",
+      "target": "Node.js",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_1",
+      "evidence": "NestJS for modular architecture, DI, microservices support.",
+      "source": "Backend",
+      "target": "NestJS",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_1",
+      "evidence": "REST for external APIs, gRPC or message bus (Kafka/NATS/RabbitMQ) for internal communication.",
+      "source": "Backend",
+      "target": "REST",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "REST for external APIs",
+      "source": "API Gateway",
+      "target": "REST",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "gRPC or message bus (Kafka/NATS/RabbitMQ) for internal communication",
+      "source": "API Gateway",
+      "target": "gRPC",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "gRPC or message bus (Kafka/NATS/RabbitMQ) for internal communication",
+      "source": "API Gateway",
+      "target": "message bus",
+      "key": 0
+    },
+    {
+      "relation": "stores",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "PostgreSQL for relational data (users, playlists, subscriptions, etc.)",
+      "source": "PostgreSQL",
+      "target": "relational data",
+      "key": 0
+    },
+    {
+      "relation": "stores",
+      "page": 3,
+      "chunk_id": "page_3_chunk_1",
+      "evidence": "Users, profiles, subscriptions, playlists, follows.",
+      "source": "PostgreSQL",
+      "target": "Users",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "Redis for caching and sessions",
+      "source": "Redis",
+      "target": "caching",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "Redis for caching and sessions",
+      "source": "Redis",
+      "target": "sessions",
+      "key": 0
+    },
+    {
+      "relation": "stores",
+      "page": 3,
+      "chunk_id": "page_3_chunk_1",
+      "evidence": "Authentication/session cache.",
+      "source": "Redis",
+      "target": "Authentication Cache",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "Elasticsearch/OpenSearch for full-text search & autocomplete",
+      "source": "Elasticsearch/OpenSearch",
+      "target": "full-text search",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "Elasticsearch/OpenSearch for full-text search & autocomplete",
+      "source": "Elasticsearch/OpenSearch",
+      "target": "autocomplete",
+      "key": 0
+    },
+    {
+      "relation": "stores",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "ClickHouse or similar data warehouse for analytics events",
+      "source": "ClickHouse",
+      "target": "analytics events",
+      "key": 0
+    },
+    {
+      "relation": "stores",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "S3-compatible object storage for audio and images",
+      "source": "S3-compatible object storage",
+      "target": "audio and images",
+      "key": 0
+    },
+    {
+      "relation": "delivers",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "CDN (CloudFront/Fastly/Cloudflare) for asset and audio delivery",
+      "source": "CDN",
+      "target": "assets and audio",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "Docker for containerization",
+      "source": "Docker",
+      "target": "containerization",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "Kubernetes (GKE/EKS/AKS) for orchestration",
+      "source": "Kubernetes",
+      "target": "orchestration",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Kubernetes (GKE/EKS/AKS) for orchestration.",
+      "source": "Kubernetes",
+      "target": "GKE/EKS/AKS",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "Vault / Secrets Manager for secrets",
+      "source": "Vault / Secrets Manager",
+      "target": "secrets",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "CI/CD via GitHub Actions / GitLab CI",
+      "source": "CI/CD",
+      "target": "GitHub Actions",
+      "key": 0
+    },
+    {
+      "relation": "via",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "CI/CD via GitHub Actions / GitLab CI.",
+      "source": "CI/CD",
+      "target": "GitHub Actions",
+      "key": 1
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_2",
+      "evidence": "CI/CD via GitHub Actions / GitLab CI",
+      "source": "CI/CD",
+      "target": "GitLab CI",
+      "key": 0
+    },
+    {
+      "relation": "via",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "CI/CD via GitHub Actions / GitLab CI.",
+      "source": "CI/CD",
+      "target": "GitLab CI",
+      "key": 1
+    },
+    {
+      "relation": "uses",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Vault / Secrets Manager for secrets.",
+      "source": "Vault",
+      "target": "Secrets Manager",
+      "key": 0
+    },
+    {
+      "relation": "via",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Observability via Prometheus + Grafana, central logging, and tracing with OpenTelemetry.",
+      "source": "Observability",
+      "target": "Prometheus",
+      "key": 0
+    },
+    {
+      "relation": "via",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Observability via Prometheus + Grafana, central logging, and tracing with OpenTelemetry.",
+      "source": "Observability",
+      "target": "Grafana",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Core tables: users, credentials, sessions, devices.",
+      "source": "Auth & Identity Service",
+      "target": "users",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Core tables: users, credentials, sessions, devices.",
+      "source": "Auth & Identity Service",
+      "target": "credentials",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Core tables: users, credentials, sessions, devices.",
+      "source": "Auth & Identity Service",
+      "target": "sessions",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Core tables: users, credentials, sessions, devices.",
+      "source": "Auth & Identity Service",
+      "target": "devices",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Manages display name, avatar, profile settings.",
+      "source": "User Profile Service",
+      "target": "display name",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_4",
+      "evidence": "Manages display name, avatar, profile settings.",
+      "source": "User Profile Service",
+      "target": "display name",
+      "key": 1
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Manages display name, avatar, profile settings.",
+      "source": "User Profile Service",
+      "target": "avatar",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_4",
+      "evidence": "Manages display name, avatar, profile settings.",
+      "source": "User Profile Service",
+      "target": "avatar",
+      "key": 1
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_3",
+      "evidence": "Manages display name, avatar, profile settings.",
+      "source": "User Profile Service",
+      "target": "profile settings",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_4",
+      "evidence": "Manages display name, avatar, profile settings.",
+      "source": "User Profile Service",
+      "target": "profile settings",
+      "key": 1
+    },
+    {
+      "relation": "stores",
+      "page": 1,
+      "chunk_id": "page_1_chunk_4",
+      "evidence": "User preferences (language, explicit content filter, theme).",
+      "source": "User Profile Service",
+      "target": "user preferences",
+      "key": 0
+    },
+    {
+      "relation": "stores",
+      "page": 1,
+      "chunk_id": "page_1_chunk_4",
+      "evidence": "Stores metadata for tracks, albums, artists, genres, moods.",
+      "source": "Catalog Service",
+      "target": "metadata",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 1,
+      "chunk_id": "page_1_chunk_4",
+      "evidence": "Manages relationships: album-track, artist-track, etc.",
+      "source": "Catalog Service",
+      "target": "relationships",
+      "key": 0
+    },
+    {
+      "relation": "indexes",
+      "page": 2,
+      "chunk_id": "page_2_chunk_1",
+      "evidence": "Indexes tracks, albums, artists, playlists, podcasts.",
+      "source": "Search & Discovery Index Service",
+      "target": "tracks, albums, artists, playlists, podcasts",
+      "key": 0
+    },
+    {
+      "relation": "powered by",
+      "page": 2,
+      "chunk_id": "page_2_chunk_1",
+      "evidence": "Powered by Elasticsearch/OpenSearch.",
+      "source": "Search & Discovery Index Service",
+      "target": "Elasticsearch/OpenSearch",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 2,
+      "chunk_id": "page_2_chunk_1",
+      "evidence": "Manages playlists (create, edit, delete, reorder, collaborative, privacy).",
+      "source": "Library & Playlist Service",
+      "target": "playlists",
+      "key": 0
+    },
+    {
+      "relation": "stores",
+      "page": 2,
+      "chunk_id": "page_2_chunk_1",
+      "evidence": "Stores playback state (current track, position, shuffle, repeat, queue).",
+      "source": "Playback & Session Service",
+      "target": "playback state",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 2,
+      "chunk_id": "page_2_chunk_1",
+      "evidence": "Manages playback sessions and active devices.",
+      "source": "Playback & Session Service",
+      "target": "playback sessions and active devices",
+      "key": 0
+    },
+    {
+      "relation": "provides",
+      "page": 2,
+      "chunk_id": "page_2_chunk_1",
+      "evidence": "Provides WebSocket channel for real-time player updates.",
+      "source": "Playback & Session Service",
+      "target": "WebSocket channel",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 2,
+      "chunk_id": "page_2_chunk_3",
+      "evidence": "Manages subscription plans (Free, Premium, Family, Student).",
+      "source": "Subscription & Billing Service",
+      "target": "subscription plans",
+      "key": 0
+    },
+    {
+      "relation": "integrates with",
+      "page": 2,
+      "chunk_id": "page_2_chunk_3",
+      "evidence": "Integrates with payment gateways (Stripe/Razorpay/etc.).",
+      "source": "Subscription & Billing Service",
+      "target": "payment gateways",
+      "key": 0
+    },
+    {
+      "relation": "handles",
+      "page": 2,
+      "chunk_id": "page_2_chunk_3",
+      "evidence": "Handles trials, renewals, invoicing, and cancellations.",
+      "source": "Subscription & Billing Service",
+      "target": "trials, renewals, invoicing, and cancellations",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 2,
+      "chunk_id": "page_2_chunk_3",
+      "evidence": "Manages ad campaigns, creatives, and targeting rules.",
+      "source": "Ads Service",
+      "target": "ad campaigns",
+      "key": 0
+    },
+    {
+      "relation": "tracks",
+      "page": 2,
+      "chunk_id": "page_2_chunk_3",
+      "evidence": "Tracks impressions, clicks, frequency caps.",
+      "source": "Ads Service",
+      "target": "impressions, clicks, frequency caps",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 2,
+      "chunk_id": "page_2_chunk_3",
+      "evidence": "manage catalogs.",
+      "source": "Content Ingestion & Creator Portal Service",
+      "target": "catalogs",
+      "key": 0
+    },
+    {
+      "relation": "handles",
+      "page": 2,
+      "chunk_id": "page_2_chunk_3",
+      "evidence": "Podcast ingestion and hosting (episodes, RSS import).",
+      "source": "Content Ingestion & Creator Portal Service",
+      "target": "podcast ingestion and hosting",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 2,
+      "chunk_id": "page_2_chunk_4",
+      "evidence": "Artist/label portal: upload tracks, edit metadata, manage catalogs.",
+      "source": "Artist/label portal",
+      "target": "catalogs",
+      "key": 0
+    },
+    {
+      "relation": "ingests",
+      "page": 2,
+      "chunk_id": "page_2_chunk_4",
+      "evidence": "Podcast ingestion and hosting (episodes, RSS import).",
+      "source": "Podcast ingestion and hosting",
+      "target": "episodes",
+      "key": 0
+    },
+    {
+      "relation": "ingests",
+      "page": 2,
+      "chunk_id": "page_2_chunk_4",
+      "evidence": "Podcast ingestion and hosting (episodes, RSS import).",
+      "source": "Podcast ingestion and hosting",
+      "target": "RSS import",
+      "key": 0
+    },
+    {
+      "relation": "uses",
+      "page": 2,
+      "chunk_id": "page_2_chunk_4",
+      "evidence": "Background worker for transcoding uploads (FFmpeg).",
+      "source": "Media Processor Service",
+      "target": "FFmpeg",
+      "key": 0
+    },
+    {
+      "relation": "writes",
+      "page": 2,
+      "chunk_id": "page_2_chunk_4",
+      "evidence": "Writes processed files to object storage and notifies Catalog/Streaming services.",
+      "source": "Media Processor Service",
+      "target": "processed files",
+      "key": 0
+    },
+    {
+      "relation": "stores",
+      "page": 2,
+      "chunk_id": "page_2_chunk_4",
+      "evidence": "Stores events in ClickHouse/warehouse.",
+      "source": "Analytics & Events Service",
+      "target": "events",
+      "key": 0
+    },
+    {
+      "relation": "provides",
+      "page": 3,
+      "chunk_id": "page_3_chunk_1",
+      "evidence": "Provides aggregated analytics for internal dashboards and creator analytics.",
+      "source": "Analytics Service",
+      "target": "Internal Dashboards",
+      "key": 0
+    },
+    {
+      "relation": "feeds",
+      "page": 3,
+      "chunk_id": "page_3_chunk_1",
+      "evidence": "Feeds Recommendation Service with listening data.",
+      "source": "Listening Data",
+      "target": "Recommendation Service",
+      "key": 0
+    },
+    {
+      "relation": "sends",
+      "page": 3,
+      "chunk_id": "page_3_chunk_1",
+      "evidence": "Sends emails, push notifications, and in-app notifications.",
+      "source": "Notification Service",
+      "target": "Emails",
+      "key": 0
+    },
+    {
+      "relation": "supports",
+      "page": 3,
+      "chunk_id": "page_3_chunk_1",
+      "evidence": "Supports notification templates and user preference management.",
+      "source": "Notification Service",
+      "target": "Notification Templates",
+      "key": 0
+    },
+    {
+      "relation": "sends",
+      "page": 3,
+      "chunk_id": "page_3_chunk_1",
+      "evidence": "Digest emails for new releases, playlist updates, etc.",
+      "source": "Notification Service",
+      "target": "Digest Emails",
+      "key": 0
+    },
+    {
+      "relation": "provides",
+      "page": 3,
+      "chunk_id": "page_3_chunk_1",
+      "evidence": "Admin panel for staff: user search, content management, moderation.",
+      "source": "Admin & Backoffice Service",
+      "target": "Admin Panel",
+      "key": 0
+    },
+    {
+      "relation": "manages",
+      "page": 3,
+      "chunk_id": "page_3_chunk_1",
+      "evidence": "Feature flags and configuration (A/B testing).",
+      "source": "Admin & Backoffice Service",
+      "target": "Feature Flags",
+      "key": 0
+    },
+    {
+      "relation": "provides",
+      "page": 3,
+      "chunk_id": "page_3_chunk_1",
+      "evidence": "System metrics and health views.",
+      "source": "Admin & Backoffice Service",
+      "target": "System Metrics",
+      "key": 0
+    }
+  ]
+}

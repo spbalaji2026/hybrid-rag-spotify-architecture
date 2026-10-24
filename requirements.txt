@@ -1,0 +1,9 @@
+
+streamlit
+openai
+python-dotenv
+faiss-cpu
+numpy
+networkx
+pypdf
+langchain-text-splitters

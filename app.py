@@ -47,7 +47,7 @@ ask_button = st.button(
     type="primary"
 )
 
-# Run RAG when button is clicked
+# Run Hybrid RAG when the button is clicked
 if ask_button:
 
     if not question.strip():
@@ -90,7 +90,7 @@ if ask_button:
                 result["pages"]
             )
 
-            # Show retrieved evidence
+            # Show FAISS evidence
             with st.expander(
                 "View FAISS Retrieved Evidence"
             ):
@@ -108,7 +108,7 @@ if ask_button:
                     st.write(item["text"])
                     st.divider()
 
-            # Show graph relationships
+            # Show Knowledge Graph evidence
             with st.expander(
                 "View Knowledge Graph Relationships"
             ):
@@ -132,13 +132,11 @@ if ask_button:
                     st.write(item["evidence"])
                     st.divider()
 
-        except Exception as error:
+        except Exception:
             st.error(
                 "Unable to generate an answer. "
-                "Check your API configuration and terminal logs."
+                "Please try again later."
             )
-            # Display diagnostic details during local development.
-            st.exception(error)
 
 st.divider()
 
